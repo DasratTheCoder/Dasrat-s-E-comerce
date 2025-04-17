@@ -1,0 +1,129 @@
+.success-container {
+    padding: 4rem 5%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.success-card {
+    background: white;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.success-icon {
+    font-size: 4rem;
+    color: #2ecc71;
+    margin-bottom: 1.5rem;
+}
+
+.success-card h1 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.success-card p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.order-details {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+    text-align: left;
+}
+
+.order-details h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.order-info p {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+.next-steps {
+    text-align: left;
+    margin: 2rem 0;
+}
+
+.next-steps h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.next-steps ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.next-steps li {
+    color: #666;
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.next-steps li:before {
+    content: "✓";
+    color: #2ecc71;
+    position: absolute;
+    left: 0;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.continue-shopping,
+.back-home {
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.continue-shopping {
+    background-color: #3498db;
+    color: white;
+}
+
+.back-home {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+    border: 1px solid #ddd;
+}
+
+.continue-shopping:hover {
+    background-color: #2980b9;
+}
+
+.back-home:hover {
+    background-color: #e9ecef;
+}
+
+@media (max-width: 768px) {
+    .success-card {
+        padding: 2rem;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+    }
+
+    .continue-shopping,
+    .back-home {
+        width: 100%;
+        text-align: center;
+    }
+} 
